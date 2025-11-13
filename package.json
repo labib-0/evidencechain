@@ -4,26 +4,25 @@
   "description": "EvidenceChain - Digital Evidence Management System",
   "private": true,
   "dependencies": {
-    "react-scripts": "5.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0",
-    "react-scripts": "5.0.1",
-    "@supabase/supabase-js": "^2.38.0",
-    "@supabase/auth-ui-react": "^0.4.6",
-    "@supabase/auth-ui-shared": "^0.1.5",
-    "@mui/material": "^5.14.0",
-    "@mui/icons-material": "^5.14.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "recharts": "^2.10.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@supabase/auth-ui-react": "^0.4.6",
+    "@supabase/auth-ui-shared": "^0.1.5",
+    "@supabase/supabase-js": "^2.38.0",
     "axios": "^1.6.0",
-    "jwt-decode": "^4.0.0",
-    "react-dropzone": "^14.2.0",
-    "qrcode.react": "^1.0.1",
     "crypto-js": "^4.1.1",
     "date-fns": "^2.30.0",
-    "jsqr": "^1.4.0"
+    "jsqr": "^1.4.0",
+    "jwt-decode": "^4.0.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "^0.0.0",
+    "recharts": "^2.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,8 +41,8 @@
       "not dead",
       "not op_mini all"
     ],
-  "engines": {
-    "node": "16"
+    "engines": {
+      "node": "16"
     },
     "development": [
       "last 1 chrome version",
